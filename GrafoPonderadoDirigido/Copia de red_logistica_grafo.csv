@@ -1,0 +1,10 @@
+Origen,Destino,Costo,Tipo_Ruta
+CD-Mexicali,CD-Tijuana,3.5,Terrestre
+CD-Mexicali,CD-Hermosillo,8.0,Terrestre
+CD-Tijuana,CD-Ensenada,1.5,Terrestre
+CD-Tijuana,Hub-Norte,12.0,Aereo
+CD-Hermosillo,CD-Culiacán,6.0,Terrestre
+CD-Culiacán,Hub-Guadalajara,10.0,Aereo
+Hub-Norte,CD-Monterrey,5.0,Aereo
+CD-Monterrey,CD-CDMX,14.0,Aereo
+CD-Monterrey,CD-Guadalajara,9.0,Terrestre
