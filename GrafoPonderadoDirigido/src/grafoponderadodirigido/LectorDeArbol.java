@@ -6,6 +6,11 @@ import java.util.ArrayList;
 
 public class LectorDeArbol {
 
+    /**
+     * Lee un archivo y inserta los elementos dentro del arbol parametrizado.
+     * @param file Dirección del archivo que se esta leyendo.
+     * @param arbol Arbol donde se insertan los elementos.
+     */
     public void loadArbol(String file, ArbolBalanceado<Data> arbol) {
         BufferedReader reader = null;
         try{
