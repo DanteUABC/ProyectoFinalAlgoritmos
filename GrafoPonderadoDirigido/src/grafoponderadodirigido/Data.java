@@ -22,6 +22,11 @@ public class Data implements Comparable<Data> {
         this.values = values;
     }
 
+    /**
+     * Solo compara la id de los elementos que se comparan.
+     * @param o Dato a comparar.
+     * @return Valor de la comparación.
+     */
     @Override
     public int compareTo(Data o) {
         return Integer.compare(this.id, o.getId());
